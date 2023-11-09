@@ -23,5 +23,5 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-           rampss/live-kube-news:V1
+           rampss/live-kube-news:${{github.run_number}}
            rampss/live-kube-news:latest
